@@ -1,0 +1,115 @@
+2025-10-13 11:43:39,146 - Error fetching https://www.scribd.com/document/831384984/Putana-s-Past-Life: HTTPSConnectionPool(host='www.scribd.com', port=443): Max retries exceeded with url: /document/831384984/Putana-s-Past-Life (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-10-13 11:43:49,072 - Downloaded: http://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/logo-Hare-Krishna-Kids.png
+2025-10-13 11:43:52,734 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Radha-Seeing-Krishna.jpg
+2025-10-13 11:43:56,446 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Radha-Krishna-Swinging.jpg
+2025-10-13 11:43:59,999 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Krishna-and-Radha-Together.jpg
+2025-10-13 11:44:03,539 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Krishna-Massaging-Balramas-Feet.jpg
+2025-10-13 11:44:07,247 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Krishna-Playing-with-Pichakari.jpg
+2025-10-13 11:44:10,888 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-33.jpg
+2025-10-13 11:44:14,422 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-32.jpg
+2025-10-13 11:44:17,925 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-31.jpg
+2025-10-13 11:44:21,696 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-30.jpg
+2025-10-13 11:44:34,650 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-29.jpg
+2025-10-13 11:44:38,414 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-28.jpg
+2025-10-13 11:44:41,853 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-27.jpg
+2025-10-13 11:44:45,332 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-26.jpg
+2025-10-13 11:44:49,029 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-25.jpg
+2025-10-13 11:44:52,836 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-24.jpg
+2025-10-13 11:44:56,499 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-23.jpg
+2025-10-13 11:44:59,955 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-22.jpg
+2025-10-13 11:45:03,690 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-21.jpg
+2025-10-13 11:45:07,439 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-20.jpg
+2025-10-13 11:45:10,919 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2013/07/Srila-Prabhupada-Colouring-Sheet-19.jpg
+2025-10-13 11:45:19,325 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/02/Krishn-GGHS-300x276-222x180.jpg
+2025-10-13 11:45:23,052 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Surbhi-semifinals-GGHS-300x276-222x180.jpg
+2025-10-13 11:45:26,714 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Parth-Nirali-GGHS-300x276-222x180.jpg
+2025-10-13 11:45:30,399 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/01/Priya-Pathak-GGHS-222x180.jpg
+2025-10-13 11:45:34,073 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Sankarshan-GGHS-300x276-222x180.jpg
+2025-10-13 11:45:37,725 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/02/Kalindi-GGHS-300x276-222x180.jpg
+2025-10-13 11:45:41,652 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Hladini-GGHS-300x276-222x180.jpg
+2025-10-13 11:45:56,954 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/06/What-you-sow-is-what-you-reap-Sahana-222x180.jpg
+2025-10-13 11:46:00,652 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Shriya-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:04,272 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Balaram-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:07,900 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/01/Priti-GGHS-222x180.jpg
+2025-10-13 11:46:11,695 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/02/Revati-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:15,379 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Giridhari-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:19,064 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Manjiri-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:31,394 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/02/Mahin-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:35,057 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/radhanath-class-3-semifinals-gghs-222x180.jpg
+2025-10-13 11:46:38,735 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Venumadhav-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:42,413 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Raghunandan-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:45,964 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/05/Putana-story-222x168.jpg
+2025-10-13 11:46:49,644 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/05/Hanumanji-in-Lanka-222x164.jpg
+2025-10-13 11:46:53,317 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/02/Tulsi-GGHS-300x276-222x180.jpg
+2025-10-13 11:46:56,979 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Gauranga-Upadhyay-GGHS-300x276-222x180.jpg
+2025-10-13 11:47:00,650 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/03/Mukunda-GGHS-300x276-222x180.jpg
+2025-10-13 11:47:17,023 - Downloaded: https://gurukul.iskcondesiretree.com/wp-content/uploads/2014/05/Krishna-killing-Aghasura-222x167.jpg
+2025-10-13 12:12:37,607 - All crawls done: 0 files in 0.01s
+2025-10-13 12:20:29,396 - Task exception was never retrieved
+future: <Task finished name='Task-309' coro=<Connection.run() done, defined at C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_connection.py:303> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_connection.py", line 310, in run
+    await self._transport.connect()
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1676, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-10-13 12:20:29,412 - Playwright error for https://www.scribd.com/document/831384984/Putana-s-Past-Life: 
+2025-10-13 12:20:29,412 - Task exception was never retrieved
+future: <Task finished name='Task-319' coro=<Connection.run() done, defined at C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_connection.py:303> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_connection.py", line 310, in run
+    await self._transport.connect()
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1676, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-10-13 12:20:29,412 - Playwright error for https://gurukul.iskcondesiretree.com/category/colouring-book/: 
+2025-10-13 12:20:29,428 - Task exception was never retrieved
+future: <Task finished name='Task-322' coro=<Connection.run() done, defined at C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_connection.py:303> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_connection.py", line 310, in run
+    await self._transport.connect()
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1676, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-10-13 12:20:29,428 - Playwright error for https://gurukul.iskcondesiretree.com/category/comics/: 
+2025-10-13 12:20:29,428 - Task exception was never retrieved
+future: <Task finished name='Task-332' coro=<Connection.run() done, defined at C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_connection.py:303> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_connection.py", line 310, in run
+    await self._transport.connect()
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\subprocess.py", line 236, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1676, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "C:\Users\sgt3kor\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 498, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-10-13 12:20:29,428 - Playwright error for https://www.slideshare.net/slideshow/krishna-leela-series-part-06-putana-killed-presentation-661992/661992: 
