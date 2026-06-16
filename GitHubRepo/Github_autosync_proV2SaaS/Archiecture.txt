@@ -1,0 +1,64 @@
+Github_autosync_proV2SaaS
+
+Github_autosync_proV2SaaS/Frontend /React / Next.js 
+Github_autosync_proV2SaaS/Frontend /Project Upload UI
+Github_autosync_proV2SaaS/Frontend /Repo Manager UI
+Github_autosync_proV2SaaS/Frontend /Sync Status Panel
+
+Github_autosync_proV2SaaS/Backend /FastAPI
+Github_autosync_proV2SaaS/Backend /Auth Service (JWT / OAuth)
+Github_autosync_proV2SaaS/Backend /Sync Engine (Git automation)
+Github_autosync_proV2SaaS/Backend/ GitHub Service (repo creation)
+Github_autosync_proV2SaaS/Backend/ Queue Worker (Celery)
+
+Github_autosync_proV2SaaS/Worker Layer Background Git processor
+Github_autosync_proV2SaaS/Worker/ Upload queue system
+Github_autosync_proV2SaaS/Worker/ Retry + recovery system
+
+Github_autosync_proV2SaaS/Database/ Users
+Github_autosync_proV2SaaS/Database/ Projects
+Github_autosync_proV2SaaS/Database/ Sync History
+Github_autosync_proV2SaaS/Database/ Tokens (encrypted)
+
+Github_autosync_proV2SaaS/Storage/ Temporary file uploads
+Github_autosync_proV2SaaS/Storage/ Backup snapshots
+
+Github_autosync_proV2SaaS/GitHubAPI/Repo creation
+Github_autosync_proV2SaaS/GitHubAPI/Commit push
+Github_autosync_proV2SaaS/GitHubAPI/Branch handling
+
+
+GitHub AutoSync SaaS
+│
+├── Frontend (Web UI)
+│   ├── React / Next.js Dashboard
+│   ├── Project Upload UI
+│   ├── Repo Manager UI
+│   ├── Sync Status Panel
+│
+├── Backend API (Core Engine)
+│   ├── FastAPI (Python)
+│   ├── Auth Service (JWT / OAuth)
+│   ├── Sync Engine (Git automation)
+│   ├── GitHub Service (repo creation)
+│   ├── Queue Worker (Celery)
+│
+├── Worker Layer
+│   ├── Background Git processor
+│   ├── Upload queue system
+│   ├── Retry + recovery system
+│
+├── Database
+│   ├── Users
+│   ├── Projects
+│   ├── Sync History
+│   ├── Tokens (encrypted)
+│
+├── Storage
+│   ├── Temporary file uploads
+│   ├── Backup snapshots
+│
+└── GitHub API Layer
+    ├── Repo creation
+    ├── Commit push
+    ├── Branch handling
