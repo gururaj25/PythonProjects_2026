@@ -1,0 +1,141 @@
+2026-06-16 15:00:25 | scanner.file_scanner | INFO     | Starting scan of directory: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU
+2026-06-16 15:00:25 | scanner.file_scanner | INFO     | Found 76 files to process
+2026-06-16 15:00:26 | chardet.universaldetector | DEBUG    | no data received!
+2026-06-16 15:00:26 | chardet.universaldetector | DEBUG    | no probers hit minimum threshold
+2026-06-16 15:00:26 | scanner.file_scanner | INFO     | Scan complete. Scanned: 76, Failed: 0
+2026-06-16 15:00:29 | deduplicator.deduplicator | INFO     | Starting deduplication of 1313 queries
+2026-06-16 15:00:30 | deduplicator.deduplicator | INFO     | Deduplication complete. 70 unique from 1313 (1243 removed)
+2026-06-16 15:00:30 | analyzer.query_analyzer | INFO     | Analyzing 70 queries
+2026-06-16 15:00:30 | sql_consolidator     | ERROR    | Fatal error: No module named 'parser.sql_parser'; 'parser' is not a package
+Traceback (most recent call last):
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 211, in main
+    results = run_consolidation(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 154, in run_consolidation
+    analysis_report = QueryAnalyzer(config).analyze(unique_queries)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\analyzer\query_analyzer.py", line 62, in analyze
+    report.recommendations = self._generate_recommendations(queries, report)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\analyzer\query_analyzer.py", line 87, in _generate_recommendations
+    from parser.sql_parser import QueryType
+ModuleNotFoundError: No module named 'parser.sql_parser'; 'parser' is not a package
+2026-06-16 15:02:54 | scanner.file_scanner | INFO     | Starting scan of directory: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU
+2026-06-16 15:02:54 | scanner.file_scanner | INFO     | Found 76 files to process
+2026-06-16 15:02:54 | chardet.universaldetector | DEBUG    | no data received!
+2026-06-16 15:02:54 | chardet.universaldetector | DEBUG    | no probers hit minimum threshold
+2026-06-16 15:02:54 | scanner.file_scanner | INFO     | Scan complete. Scanned: 76, Failed: 0
+2026-06-16 15:02:54 | sql_consolidator     | ERROR    | Fatal error: name 'sql_parser' is not defined
+Traceback (most recent call last):
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 211, in main
+    results = run_consolidation(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 125, in run_consolidation
+    extracted = sql_parser.parse_file_content(sf.content, sf.file_path, sf.folder_path)
+NameError: name 'sql_parser' is not defined
+2026-06-16 15:03:37 | scanner.file_scanner | INFO     | Starting scan of directory: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU
+2026-06-16 15:03:37 | scanner.file_scanner | INFO     | Found 76 files to process
+2026-06-16 15:03:37 | chardet.universaldetector | DEBUG    | no data received!
+2026-06-16 15:03:37 | chardet.universaldetector | DEBUG    | no probers hit minimum threshold
+2026-06-16 15:03:37 | scanner.file_scanner | INFO     | Scan complete. Scanned: 76, Failed: 0
+2026-06-16 15:03:40 | deduplicator.deduplicator | INFO     | Starting deduplication of 1313 queries
+2026-06-16 15:03:41 | deduplicator.deduplicator | INFO     | Deduplication complete. 70 unique from 1313 (1243 removed)
+2026-06-16 15:03:41 | analyzer.query_analyzer | INFO     | Analyzing 70 queries
+2026-06-16 15:03:41 | sql_consolidator     | ERROR    | Fatal error: No module named 'parser.sql_parser'; 'parser' is not a package
+Traceback (most recent call last):
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 211, in main
+    results = run_consolidation(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 154, in run_consolidation
+    analysis_report = QueryAnalyzer(config).analyze(unique_queries)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\analyzer\query_analyzer.py", line 62, in analyze
+    report.recommendations = self._generate_recommendations(queries, report)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\analyzer\query_analyzer.py", line 87, in _generate_recommendations
+    from parser.sql_parser import QueryType
+ModuleNotFoundError: No module named 'parser.sql_parser'; 'parser' is not a package
+2026-06-16 15:06:55 | scanner.file_scanner | INFO     | Starting scan of directory: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU
+2026-06-16 15:06:55 | scanner.file_scanner | INFO     | Found 76 files to process
+2026-06-16 15:06:55 | chardet.universaldetector | DEBUG    | no data received!
+2026-06-16 15:06:55 | chardet.universaldetector | DEBUG    | no probers hit minimum threshold
+2026-06-16 15:06:55 | scanner.file_scanner | INFO     | Scan complete. Scanned: 76, Failed: 0
+2026-06-16 15:06:58 | deduplicator.deduplicator | INFO     | Starting deduplication of 1313 queries
+2026-06-16 15:06:59 | deduplicator.deduplicator | INFO     | Deduplication complete. 70 unique from 1313 (1243 removed)
+2026-06-16 15:06:59 | analyzer.query_analyzer | INFO     | Analyzing 70 queries
+2026-06-16 15:06:59 | analyzer.query_analyzer | INFO     | Analysis complete
+2026-06-16 15:06:59 | sql_consolidator     | ERROR    | Fatal error: No module named 'parser.sql_parser'; 'parser' is not a package
+Traceback (most recent call last):
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 211, in main
+    results = run_consolidation(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 173, in run_consolidation
+    output_files = ReportGenerator(config, output_dir).generate_all_reports(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\reports\report_generator.py", line 37, in generate_all_reports
+    path = self._gen_master_sql(queries, scan_metadata)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\reports\report_generator.py", line 62, in _gen_master_sql
+    content = self.formatter.generate_master_sql_document(queries, metadata)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 97, in generate_master_sql_document
+    categorized = self.format_all_queries(queries)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 52, in format_all_queries
+    category = self._get_category_name(query.query_type)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 59, in _get_category_name
+    from parser.sql_parser import QueryType
+ModuleNotFoundError: No module named 'parser.sql_parser'; 'parser' is not a package
+2026-06-16 15:08:58 | scanner.file_scanner | INFO     | Starting scan of directory: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU
+2026-06-16 15:08:58 | scanner.file_scanner | INFO     | Found 76 files to process
+2026-06-16 15:08:58 | chardet.universaldetector | DEBUG    | no data received!
+2026-06-16 15:08:58 | chardet.universaldetector | DEBUG    | no probers hit minimum threshold
+2026-06-16 15:08:58 | scanner.file_scanner | INFO     | Scan complete. Scanned: 76, Failed: 0
+2026-06-16 15:09:01 | deduplicator.deduplicator | INFO     | Starting deduplication of 1313 queries
+2026-06-16 15:09:02 | deduplicator.deduplicator | INFO     | Deduplication complete. 70 unique from 1313 (1243 removed)
+2026-06-16 15:09:02 | analyzer.query_analyzer | INFO     | Analyzing 70 queries
+2026-06-16 15:09:02 | analyzer.query_analyzer | INFO     | Analysis complete
+2026-06-16 15:09:02 | sql_consolidator     | ERROR    | Fatal error: No module named 'parser.sql_parser'; 'parser' is not a package
+Traceback (most recent call last):
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 211, in main
+    results = run_consolidation(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 173, in run_consolidation
+    output_files = ReportGenerator(config, output_dir).generate_all_reports(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\reports\report_generator.py", line 37, in generate_all_reports
+    path = self._gen_master_sql(queries, scan_metadata)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\reports\report_generator.py", line 62, in _gen_master_sql
+    content = self.formatter.generate_master_sql_document(queries, metadata)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 97, in generate_master_sql_document
+    categorized = self.format_all_queries(queries)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 52, in format_all_queries
+    category = self._get_category_name(query.query_type)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 59, in _get_category_name
+    from parser.sql_parser import QueryType
+ModuleNotFoundError: No module named 'parser.sql_parser'; 'parser' is not a package
+2026-06-16 15:09:47 | scanner.file_scanner | INFO     | Starting scan of directory: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU
+2026-06-16 15:09:47 | scanner.file_scanner | INFO     | Found 76 files to process
+2026-06-16 15:09:47 | chardet.universaldetector | DEBUG    | no data received!
+2026-06-16 15:09:47 | chardet.universaldetector | DEBUG    | no probers hit minimum threshold
+2026-06-16 15:09:47 | scanner.file_scanner | INFO     | Scan complete. Scanned: 76, Failed: 0
+2026-06-16 15:09:50 | deduplicator.deduplicator | INFO     | Starting deduplication of 1313 queries
+2026-06-16 15:09:51 | deduplicator.deduplicator | INFO     | Deduplication complete. 70 unique from 1313 (1243 removed)
+2026-06-16 15:09:51 | analyzer.query_analyzer | INFO     | Analyzing 70 queries
+2026-06-16 15:09:51 | analyzer.query_analyzer | INFO     | Analysis complete
+2026-06-16 15:09:51 | sql_consolidator     | ERROR    | Fatal error: No module named 'parser.sql_parser'; 'parser' is not a package
+Traceback (most recent call last):
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 211, in main
+    results = run_consolidation(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\main.py", line 173, in run_consolidation
+    output_files = ReportGenerator(config, output_dir).generate_all_reports(
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\reports\report_generator.py", line 37, in generate_all_reports
+    path = self._gen_master_sql(queries, scan_metadata)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\reports\report_generator.py", line 62, in _gen_master_sql
+    content = self.formatter.generate_master_sql_document(queries, metadata)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 97, in generate_master_sql_document
+    categorized = self.format_all_queries(queries)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 52, in format_all_queries
+    category = self._get_category_name(query.query_type)
+  File "D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\sql_consolidator\formatter\sql_formatter.py", line 59, in _get_category_name
+    from parser.sql_parser import QueryType
+ModuleNotFoundError: No module named 'parser.sql_parser'; 'parser' is not a package
+2026-06-16 15:10:41 | scanner.file_scanner | INFO     | Starting scan of directory: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU
+2026-06-16 15:10:41 | scanner.file_scanner | INFO     | Found 76 files to process
+2026-06-16 15:10:41 | chardet.universaldetector | DEBUG    | no data received!
+2026-06-16 15:10:41 | chardet.universaldetector | DEBUG    | no probers hit minimum threshold
+2026-06-16 15:10:41 | scanner.file_scanner | INFO     | Scan complete. Scanned: 76, Failed: 0
+2026-06-16 15:10:44 | deduplicator.deduplicator | INFO     | Starting deduplication of 1313 queries
+2026-06-16 15:10:45 | deduplicator.deduplicator | INFO     | Deduplication complete. 70 unique from 1313 (1243 removed)
+2026-06-16 15:10:45 | analyzer.query_analyzer | INFO     | Analyzing 70 queries
+2026-06-16 15:10:45 | analyzer.query_analyzer | INFO     | Analysis complete
+2026-06-16 15:10:46 | reports.report_generator | INFO     | Master SQL: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU_Output\master_consolidated_20260616_151045.sql
+2026-06-16 15:10:46 | reports.report_generator | INFO     | Text report: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU_Output\summary_report_20260616_151045.txt
+2026-06-16 15:10:47 | reports.report_generator | INFO     | Word document: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU_Output\sql_report_20260616_151045.docx
+2026-06-16 15:10:47 | reports.report_generator | INFO     | Excel report: D:\Gururaj\Learning\Python\ConsolidateSQLFilesinOne\TESTData\FCU_Output\sql_analysis_20260616_151045.xlsx

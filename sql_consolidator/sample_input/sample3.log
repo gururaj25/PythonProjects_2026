@@ -1,0 +1,34 @@
+2024-01-15 10:00:00 [DEBUG] Simple query executed:
+SELECT * FROM users
+
+2024-01-15 10:00:01 [INFO] Window function report:
+SELECT d.department_name, e.employee_id,
+       e.first_name + ' ' + e.last_name AS full_name,
+       e.salary,
+       AVG(e.salary) OVER (PARTITION BY d.department_id) AS dept_avg,
+       RANK() OVER (PARTITION BY d.department_id ORDER BY e.salary DESC) AS rank
+FROM employees e
+INNER JOIN departments d ON e.department_id = d.department_id
+WHERE e.hire_date >= '2020-01-01'
+ORDER BY d.department_name, rank;
+
+2024-01-15 10:00:05 [INFO] Transaction block:
+BEGIN TRANSACTION;
+    UPDATE accounts SET balance = balance - @amount WHERE account_id = @from;
+    UPDATE accounts SET balance = balance + @amount WHERE account_id = @to;
+    INSERT INTO transactions (from_account, to_account, amount, txn_date)
+    VALUES (@from, @to, @amount, GETDATE());
+COMMIT TRANSACTION;
+
+2024-01-15 10:00:10 [INFO] Stored function:
+CREATE OR REPLACE FUNCTION calculate_discount(p_customer_id INT, p_amount DECIMAL)
+RETURNS DECIMAL AS
+BEGIN
+    DECLARE @rate DECIMAL = 0.0;
+    DECLARE @cnt INT;
+    SELECT @cnt = COUNT(*) FROM orders
+    WHERE customer_id = p_customer_id AND status = 'completed';
+    IF @cnt >= 10 SET @rate = 0.15;
+    ELSE IF @cnt >= 5 SET @rate = 0.10;
+    RETURN p_amount * @rate;
+END;

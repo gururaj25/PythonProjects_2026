@@ -1,0 +1,41 @@
+Application Log File - 2024-01-15
+==================================
+[INFO] Starting batch process
+
+SELECT p.product_id, p.name, p.price,
+       c.category_name,
+       COALESCE(inv.quantity, 0) AS stock_quantity
+FROM products p
+INNER JOIN categories c ON p.category_id = c.id
+LEFT JOIN inventory inv ON p.product_id = inv.product_id
+WHERE p.is_active = 1 AND p.price > 0
+ORDER BY c.category_name, p.name;
+
+[INFO] 1542 records returned
+
+UPDATE inventory
+SET quantity = quantity - @sold_quantity,
+    last_updated = GETDATE()
+WHERE product_id = @product_id
+  AND quantity >= @sold_quantity;
+
+INSERT INTO order_items (order_id, product_id, quantity, unit_price)
+SELECT @order_id, product_id, @qty, price
+FROM products
+WHERE product_id = @product_id;
+
+MERGE INTO customer_summary AS target
+USING (
+    SELECT customer_id, SUM(amount) AS total_spent, COUNT(*) AS order_count
+    FROM orders
+    WHERE order_date >= DATEADD(MONTH, -1, GETDATE())
+    GROUP BY customer_id
+) AS source ON target.customer_id = source.customer_id
+WHEN MATCHED THEN
+    UPDATE SET target.total_spent = source.total_spent,
+               target.last_updated = GETDATE()
+WHEN NOT MATCHED THEN
+    INSERT (customer_id, total_spent, last_updated)
+    VALUES (source.customer_id, source.total_spent, GETDATE());
+
+[INFO] Batch process complete.

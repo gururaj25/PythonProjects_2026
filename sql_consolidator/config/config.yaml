@@ -1,0 +1,73 @@
+# SQL Consolidator Configuration File
+
+scanner:
+  default_extensions:
+    - ".sql"
+    - ".txt"
+    - ".log"
+    - ".bak"
+  exclude_extensions:
+    - ".exe"
+    - ".dll"
+    - ".bin"
+    - ".jpg"
+    - ".png"
+  max_file_size_mb: 100
+  encoding_fallbacks:
+    - "utf-8"
+    - "latin-1"
+    - "cp1252"
+    - "ascii"
+
+parser:
+  min_query_length: 10
+  max_query_length: 500000
+  supported_query_types:
+    - "SELECT"
+    - "INSERT"
+    - "UPDATE"
+    - "DELETE"
+    - "MERGE"
+    - "CREATE"
+    - "ALTER"
+    - "DROP"
+    - "TRUNCATE"
+    - "EXEC"
+    - "EXECUTE"
+    - "WITH"
+    - "CALL"
+  test_keywords:
+    - "test_table"
+    - "tmp_test"
+    - "debug_log"
+
+deduplicator:
+  similarity_threshold: 0.95
+  normalize_whitespace: true
+  normalize_case: true
+
+formatter:
+  keyword_case: "upper"
+  indent_width: 4
+  max_line_length: 120
+  reindent: true
+  strip_comments: false
+
+output:
+  generate_sql: true
+  generate_txt: true
+  generate_docx: true
+  generate_xlsx: true
+  generate_report: true
+  include_metadata: true
+
+analyzer:
+  enable_risk_detection: true
+  enable_complexity_scoring: true
+  enable_importance_ranking: true
+
+logging:
+  level: "INFO"
+  log_to_file: true
+  log_file: "logs/sql_consolidator.log"
+  max_log_size_mb: 10
