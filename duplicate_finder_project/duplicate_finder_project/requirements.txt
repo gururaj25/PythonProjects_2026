@@ -1,0 +1,6 @@
+PySide6
+pandas
+openpyxl
+rapidfuzz
+send2trash
+watchdog
